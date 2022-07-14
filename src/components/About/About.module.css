@@ -1,0 +1,35 @@
+
+.about {
+    background-color: #F6F6F6;
+    background-size: 100%;
+    max-width: 936px;
+    margin: 0 auto;
+}
+
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 505.26px;
+    background-color: #F6F6F6;
+    background-size: 100%;
+    padding: 0 20px;
+}
+
+.title {
+    font-family: 'Gilroy-Bold';
+    font-size: 33.95px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+}
+
+.text{
+    font-family: 'Gilroy-Medium';
+    font-size: 17.9735px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+}

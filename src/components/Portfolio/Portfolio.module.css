@@ -1,0 +1,58 @@
+.portfolios{
+    background: #F6F6F6;
+    max-width: 936px;
+    margin: 0 auto;
+}
+
+.portfolio {
+    background-color: #F6F6F6;
+    background-size: 100%;
+}
+
+.header {
+    font-family: 'Gilroy-Bold';
+    font-size: 33.95px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+    padding: 112px 0 47px 0;
+}
+.info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.info a {
+    color: #070707;
+}
+
+.img {
+    width: 100%;
+    max-width: 100%; 
+    min-height: 100%; 
+    object-fit: scale-down;
+}
+.git {
+    font-family: 'Gilroy-Medium';
+    font-size: 17.9735px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+    padding:45px 0 100px 0 ;
+}
+.all {
+    font-family: 'Gilroy-Medium';
+    font-size: 22px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line:none;
+    padding:45px 0 100px 0 ;
+}
+.all a {
+    color: #070707; 
+}
+.all a:hover {
+    color: red;
+}
+
+

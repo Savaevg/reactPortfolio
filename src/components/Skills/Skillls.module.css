@@ -1,0 +1,55 @@
+.skills {
+    max-width: 936px;
+    margin: 0 auto;
+}
+
+.title {
+    font-family: 'Gilroy-Bold';
+    font-size: 33.95px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+    padding: 90px 0 69px 0;
+}
+
+.items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 83px;
+    flex-wrap: wrap;
+}
+
+
+.name {
+    display: flex;
+    flex-direction: column;
+    min-width: 150px;
+    min-height: auto;
+    padding:0 20px 50px 20px;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 100%;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Gilroy-Bold';
+    font-size: 13.9794px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+    padding: 25px 0 40px 0;
+    flex: 1 1 auto;
+}
+
+@media screen and (max-width: 625px){
+    .skills {
+        justify-content: center;
+    }
+}

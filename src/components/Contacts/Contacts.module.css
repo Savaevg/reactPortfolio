@@ -1,0 +1,44 @@
+
+.contacts {
+    max-width: 936px;
+    margin: 0 auto;
+}
+
+.title {
+    padding-top: 118px;
+    font-family: 'Gilroy-Bold';
+    font-size: 33.95px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+}
+.text {
+    padding: 50px 0;
+    font-family: 'Gilroy-Medium';
+    font-size: 17.9735px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+}
+
+
+
+.img {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    max-width: 340px;
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+
+@media screen and (max-width:250px) {
+    .title {
+        font-size: 25px;
+    }
+    .img img {
+       max-width: 20px;
+    }
+}

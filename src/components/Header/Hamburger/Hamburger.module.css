@@ -1,0 +1,101 @@
+#toggle {
+    opacity: 0;
+}
+.btn {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+}
+.btn > span,
+.btn > span::before,
+.btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: rgb(99, 97, 97);
+}
+
+.btn > span::before {
+    content: '';
+    top: -8px;
+}
+.btn > span::after {
+    content: '';
+    top: 8px; 
+}
+.box {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    right: -100%;
+    margin: 0;
+    padding: 20px 0;
+    list-style: none;
+    text-align: left;
+    background-color: #ffffffd7;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0,.2);
+
+}
+
+.item {
+    display: block;
+    top: 0;
+    padding: 12px 24px;
+    font-family:'Gilroy-Bold' ;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: .5s ease-in;
+    
+}
+.item a {
+    text-decoration: none;
+    color: #828282;
+    transition: .5s ease-in;
+}
+.item:hover{
+    background-color: #cfd8dc;
+}
+.item a:hover {
+    color: #070707;
+}
+
+#toggle:checked ~ 
+.btn > span {
+    transform: rotate(45deg);
+}
+#toggle:checked ~ 
+.btn > span::before {
+    top: 0;
+    transform: rotate(0);
+}
+#toggle:checked ~ 
+.btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+}
+#toggle:checked ~ 
+.box {
+    visibility: visible;
+    right: 0;
+
+}
+.hamburger {
+    display: none;
+}
+
+@media screen and (max-width:450px) {
+    .hamburger {
+        display: block;
+    }
+}
