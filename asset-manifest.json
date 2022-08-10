@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fbffd84f.css",
+    "main.js": "/static/js/main.0b5a4e33.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/port3.png": "/static/media/port3.a55ff078b18b08248443.png",
+    "static/media/port1.png": "/static/media/port1.c19c922d366f306b6727.png",
+    "static/media/wp9641838-front-end-developer-wallpapers.jpg": "/static/media/wp9641838-front-end-developer-wallpapers.2cf98cf4d8259ef2f984.jpg",
+    "static/media/port2.png": "/static/media/port2.a393af13a7339375e1cb.png",
+    "index.html": "/index.html",
+    "main.fbffd84f.css.map": "/static/css/main.fbffd84f.css.map",
+    "main.0b5a4e33.js.map": "/static/js/main.0b5a4e33.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fbffd84f.css",
+    "static/js/main.0b5a4e33.js"
+  ]
+}
